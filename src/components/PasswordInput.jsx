@@ -5,7 +5,8 @@ import React from "react";
 // PasswordInput Component
 const PasswordInput = () => {
   const handleChange = () => {
-    console.log("Entering password…");
+    // Corrected to use three standard periods
+    console.log("Entering password...");
   };
 
   return <input type="password" onChange={handleChange} />;
